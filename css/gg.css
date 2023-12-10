@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'InterBold';
+    src: url(../fonts/Inter-Bold.ttf);
+}
+body {
+    font-family: Inter;
+}
+.total-body {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.header-form {
+    position: relative;
+}
+
+.top-header {
+    position: relative;
+}
+
+.title-main {
+    position: absolute;
+    top: 30%;
+    padding-left: 30px;
+}
+
+.title-main h1 {
+    font-size: 50px;
+    margin-bottom: 1px;
+    font-weight: bolder;
+}
+
+.title-main h3 {
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.form-div {
+    border-radius: 12px;
+    background-color: white;
+    height: 200px;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    position: absolute;
+    top: 90%;
+    left: 6%;
+
+}
+
+.rounded-input {
+    border-radius: 10px;
+    box-shadow: grey;
+    height: 30px;
+    margin: 1%;
+    width: 30%;
+    padding: 2px;
+    border: 1px solid gray;
+}
+
+.select {
+    width: 30.75%;
+    padding: 5px;
+    height: 35px;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.appointment-talk {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.book-button {
+    width: 50px;
+    box-shadow: grey;
+    height: 30px;
+    margin: 1%;
+    padding: 2px;
+    border: 1px solid gray;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.talk-icon {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 20px;
+}
+
+.talk-link {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+
+}
+
+.doctorstalk {
+    color: black;
+    padding: 10px;
+    width: 100px;
+}
+.dept {
+    margin-top: 230px;
+}
+.dept-heading {
+    width: 266px;
+}
+.dept-heading h2 {
+    font-size: 30px;
+}
+.dept-top {
+    display: flex;
+    justify-content: space-between;
+}
+.arrows {
+    display: flex;
+    align-items: center;
+}
+.dept-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dept .depts {
+    width: 30%;
+}
+.depts-content a {
+    color:rgb(68, 184, 146);
+}
+.depts-content p {
+    width: 94%;
+}
+.whygg {
+    margin-top: 200px;
+    background-color: #E8F9F6;
+    display: flex;
+}
+.ggdoctors {
+    width: 60%;
+}
+.ggcontent {
+    width: 40%;
+}
+.gg-eachpoint {
+    display: flex;
+}
+.gg-eachpoint .tickbox {
+    width: 5%;
+    display: flex;
+    align-items: center;
+}
+.gg-eachpoint .gg-ptag {
+    width: 95%;
+}
+.ggcontent {
+    display: flex;
+    align-items: center;
+}
+.tickbox img {
+    height: 16px;
+}
+.specialist {
+    margin-top: 200px;
+}
+.specialist-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specialist-heading h2 {
+    margin: 0px;
+}
+.specialist p{
+    color: gray;
+}
+.speciallist-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.specialist1 {
+    width: 23%;
+}
+.specialist1 .image-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specialist1 .image-desc h3,p {
+    margin: 3px;
+}
+.button-view-all {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+.button-view-all button {
+    background-color: #17C1A3;
+    color: white;
+    border-radius: 5px;
+    border: 1px grey;
+    width: 150px;
+    height: 40px;
+}
+.facilities-container {
+    display: flex;
+    justify-content: space-between;
+}
+.facilities-container .img-container {
+    width: 30%;
+}
+.facilities {
+    margin-top: 200px;
+}
+.facilities h2 {
+    display: flex;
+    justify-content: center;
+}
+.interest {
+    background-color: #E8F9F6;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+    position: relative;
+}
+.interest-container {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    position: absolute;
+    top: -10%;
+}
+.interest-tile {
+    width: 30%;
+}
+.subscription {
+    background-color: white;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 10%;
+}
+.subscription .mail-id {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.subscription h3 {
+    margin: 0;
+}
+.mail-id input {
+    border: none;
+    outline: none;
+}
+.sub-button {
+    background-color: #17C1A3;
+    color: white;
+    border-radius: 5px;
+    border: 1px grey;
+    width: 130px;
+    height: 30px;
+}
