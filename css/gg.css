@@ -321,7 +321,7 @@ p {
 
 .interest {
     background-color: #E8F9F6;
-    margin-top: 300px;
+    margin-top: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,7 +333,7 @@ p {
 .interest-container {
     width: 88%;
     position: absolute;
-    top: -25%;
+    top: -40%;
 }
 
 .interest-container h3,
