@@ -2,13 +2,62 @@
     font-family: 'Inter';
     src: url(../fonts/Inter-Regular.ttf);
 }
+
 @font-face {
     font-family: 'InterBold';
     src: url(../fonts/Inter-Bold.ttf);
 }
+
 body {
     font-family: Inter;
+    margin: 0;
 }
+
+button {
+    cursor: pointer;
+}
+
+.info-bar {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    height: 35px
+}
+
+.info-bar .follow-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 140px;
+}
+
+.info-bar .follow-btns>div {
+    width: 20px;
+    height: 20px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.info-bar .contact-info {
+    justify-content: space-between;
+    width: 55%;
+}
+
+.info-bar .contact-info,
+.info-bar .contact-info .phone,
+.info-bar .contact-info .email {
+    display: flex;
+    align-items: center;
+}
+
+.info-bar .contact-info .img-container {
+    margin-right: 5px;
+    width: 14px;
+    height: 14px;
+}
+
 .total-body {
     padding-left: 40px;
     padding-right: 40px;
@@ -41,6 +90,7 @@ body {
 .title-main h3 {
     font-weight: 100;
     margin-top: 0px;
+    font-size: 22px;
 }
 
 .form-div {
@@ -74,10 +124,14 @@ body {
 }
 
 .button {
-    background-color: green;
+    background-color: #17C1A3;
     color: white;
-    height: 35px;
+    height: 59px;
+    width: 238px;
     border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .appointment-talk {
@@ -120,101 +174,129 @@ body {
     padding: 10px;
     width: 100px;
 }
+
 .dept {
     margin-top: 230px;
 }
+
 .dept-heading {
     width: 266px;
 }
+
 .dept-heading h2 {
     font-size: 30px;
 }
+
 .dept-top {
     display: flex;
     justify-content: space-between;
 }
+
 .arrows {
     display: flex;
     align-items: center;
 }
+
 .dept-body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .dept .depts {
     width: 30%;
 }
+
 .depts-content a {
-    color:rgb(68, 184, 146);
+    color: rgb(68, 184, 146);
 }
+
 .depts-content p {
     width: 94%;
 }
+
 .whygg {
     margin-top: 200px;
     background-color: #E8F9F6;
     display: flex;
 }
+
 .ggdoctors {
     width: 60%;
 }
+
 .ggcontent {
     width: 40%;
 }
+
 .gg-eachpoint {
     display: flex;
 }
+
 .gg-eachpoint .tickbox {
     width: 5%;
     display: flex;
     align-items: center;
 }
+
 .gg-eachpoint .gg-ptag {
     width: 95%;
 }
+
 .ggcontent {
     display: flex;
     align-items: center;
 }
+
 .tickbox img {
     height: 16px;
 }
+
 .specialist {
     margin-top: 200px;
 }
+
 .specialist-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .specialist-heading h2 {
     margin: 0px;
 }
-.specialist p{
+
+.specialist p {
     color: gray;
 }
+
 .speciallist-img {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
 }
+
 .specialist1 {
     width: 23%;
 }
+
 .specialist1 .image-desc {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.specialist1 .image-desc h3,p {
+
+.specialist1 .image-desc h3,
+p {
     margin: 3px;
 }
+
 .button-view-all {
     display: flex;
     justify-content: center;
     margin: 60px;
 }
+
 .button-view-all button {
     background-color: #17C1A3;
     color: white;
@@ -223,20 +305,20 @@ body {
     width: 150px;
     height: 40px;
 }
+
 .facilities-container {
     display: flex;
     justify-content: space-between;
 }
+
 .facilities-container .img-container {
     width: 30%;
 }
+
 .facilities {
     margin-top: 200px;
 }
-.facilities h2 {
-    display: flex;
-    justify-content: center;
-}
+
 .interest {
     background-color: #E8F9F6;
     margin-top: 300px;
@@ -247,16 +329,35 @@ body {
     height: 600px;
     position: relative;
 }
+
 .interest-container {
-    display: flex;
-    justify-content: space-between;
     width: 88%;
     position: absolute;
-    top: -10%;
+    top: -25%;
 }
+
+.interest-container h3,
+.facilities h2,
+.specialist-heading h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.specialist-heading h2,
+.dept-heading h2 {
+    font-size: 35px;
+}
+
+.interest-tiles-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .interest-tile {
     width: 30%;
 }
+
 .subscription {
     background-color: white;
     width: 88%;
@@ -267,18 +368,22 @@ body {
     position: absolute;
     bottom: 10%;
 }
+
 .subscription .mail-id {
     display: flex;
     align-items: center;
     border-bottom: 1px solid;
 }
+
 .subscription h3 {
     margin: 0;
 }
+
 .mail-id input {
     border: none;
     outline: none;
 }
+
 .sub-button {
     background-color: #17C1A3;
     color: white;
@@ -286,4 +391,91 @@ body {
     border: 1px grey;
     width: 130px;
     height: 30px;
+}
+
+.footer {
+    font-size: 14px;
+    margin: 50px 0 20px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.footer .top-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hosp-desc {
+    width: 30%;
+}
+
+.hosp-desc .img-container {
+    width: 80%;
+}
+
+.about-legal {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.about-legal .about { 
+    width: 40%;
+}
+
+.about-legal .about .about-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-legal .about1,
+.about-legal .about2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer .bottom-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .bottom-last-row {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-medias {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address,
+.contact,
+.footer-mail {
+    display: flex;
+}
+
+.footer-img-container {
+    padding-top: 4px;
+}
+
+.footer-img-container img {
+    height: 14px;
+    width: 14px;
+}
+
+.address,
+.contact,
+.footer-mail {
+    padding-top: 13px;
 }
