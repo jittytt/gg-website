@@ -104,7 +104,7 @@ button {
     position: absolute;
     top: 90%;
     left: 6%;
-
+    box-shadow: 2px 1px 55px -10px rgba(0,0,0,0.75);;
 }
 
 .rounded-input {
@@ -235,6 +235,7 @@ button {
 
 .gg-eachpoint {
     display: flex;
+    margin: 15px 15px 15px 0;
 }
 
 .gg-eachpoint .tickbox {
